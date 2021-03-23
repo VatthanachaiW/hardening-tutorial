@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hardening.API", "src\Hardening.API\Hardening.API.csproj", "{1ECBD7C0-FFF3-4936-B485-50D134024F20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hardening.Models", "src\Hardening.Models\Hardening.Models.csproj", "{1D5614CB-4D6C-41D8-ADAC-B050F7C777A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ECBD7C0-FFF3-4936-B485-50D134024F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ECBD7C0-FFF3-4936-B485-50D134024F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ECBD7C0-FFF3-4936-B485-50D134024F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ECBD7C0-FFF3-4936-B485-50D134024F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D5614CB-4D6C-41D8-ADAC-B050F7C777A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D5614CB-4D6C-41D8-ADAC-B050F7C777A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D5614CB-4D6C-41D8-ADAC-B050F7C777A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D5614CB-4D6C-41D8-ADAC-B050F7C777A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B21C684-F16B-4CDF-95F1-16B8CD378698}
+	EndGlobalSection
+EndGlobal
