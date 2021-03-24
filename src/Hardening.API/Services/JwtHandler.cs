@@ -67,7 +67,7 @@ namespace Hardening.API.Services
         new Claim(ClaimTypes.Expired, $"{exp}"),
         new Claim(ClaimTypes.Role, string.Join(',', roles)),
       };
-      //var jwt = new JwtSecurityToken(_jwtHeader, payload);
+
 
       var jwt = new JwtSecurityToken(issuer: _options.Issuer, audience: _options.Issuer, claims: claims, expires: expires, signingCredentials: _signingCredentials);
 

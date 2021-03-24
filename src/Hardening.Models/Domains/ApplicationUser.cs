@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Identity;
 
 namespace Hardening.Models.Domains
@@ -7,6 +8,7 @@ namespace Hardening.Models.Domains
   {
     public string Firstname { get; set; }
     public string Lastname { get; set; }
+    public ICollection<Todo> Todos { get; set; }
   }
 
   public partial class ApplicationUser
